@@ -1,0 +1,93 @@
+Week2:
+git config --global user.email "example@gmail.com
+git config --global user.username "yourName"
+
+git config --global user.email
+git config --global user.username
+
+git init --->initializing  ---git repo 
+---> create some file and folder and add data inside that files and folders
+
+git add <filename> ---->for moving spcific file working area into staging area
+git add . ----> for moving all file or folder working area into  staging area
+git commit -m"message" ----->for moving staging area into local rep(saving)
+git status ---> list all the file and folder status
+
+
+Week3:
+git init --->initializing 
+git add <filename> ---->for moving spcific file working area into staging area
+git add . ----> for moving all file or folder working area into  staging area
+git commit -m"message" ----->for moving staging area into local rep
+git status ---> list all the file and folder status
+
+git remote add origin "remote_repo_url" ---->for adding remoterepURL as origin name
+git push origin master ---->Coping local repo data into remote repo
+
+git pull madhu master --->updating changes into local repo from remote repo
+
+
+Week5:
+git clone <remote_repo_URL>  --->for coping remote data into local system
+
+Week6:
+touch index.html  -->creating file 
+touch about.html --->creating file
+touch contact.html  --->creating file
+------->add some data inside above files
+
+git init -->for initializing
+git add . --->staging changes from working area
+git commit -m"added index.html about.html conatct.html"  --->saving in git repo
+git status --->to check the file and folder status
+
+
+Week7:
+git remote add origin <remoteURl> -->for adding as a origin 
+git push orign master -->for pushin local repo into remote repo
+
+
+Week9:
+git pull origin master
+
+Week10:
+git branch -->for chaking branch list
+git branch <branchName> -->creating branch name
+git checkout <brachName> -->switching branch
+
+touch om.html -->creating file
+touch madhu.html -->creating file
+-----> add some data inside above files
+
+git add .
+git commit -m"added om.html madhu.html"
+git status -->checking status of files and folders
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
